@@ -1,14 +1,17 @@
-# Medical Appointment Application
-Welcome to our Medical Appointment Application (A Minimal Hospital Management API). Medical Appointment Application (MAA) is a compact software API designed to address the essential needs of a healthcare facility, focusing on core functionalities to streamline daily operations such as appointment bookings and cancellations, doctor's availability etc.
+# Medical Appointment API
 
-This API aims to simplify appointment booking between a patient and doctors, as well as appointment scheduling.
+The Medical Appointment API is a robust backend service designed to manage appointments between patients and doctors in a clinical setting. It simplifies the process of scheduling, updating, and cancelling appointments, ensuring efficient utilization of medical resources and enhancing patient care through digital means.
 
+## Key Features
 
-- [Key features](#key-features)
-    + [CRUD Operation for patients](#CRUD-Operation-for-patients)
-    + [CRUD Operation for doctors](#CRUD-Operation-for-doctors)
-    + [Appointment Scheduling](#appointment-scheduling)
-   
-- [Technologies Used](#technologies-used)
-    + [Backend: FastAPI](#backend:-fastapi)
-    + [Database: in-memory data structure(lists & dictionaries)](#database:in-memory-data-structure-(lists-&-dictionaries))
+- **Patient Management**: Supports full CRUD (Create, Read, Update, Delete) operations for patient records, enabling the maintenance of up-to-date patient information.
+- **Doctor Management**: Facilitates CRUD operations for doctor records, including the ability to update availability status dynamically.
+- **Appointment Scheduling**: Allows patients to book appointments, which are automatically assigned to available doctors. It prevents double-booking by ensuring a doctor can only have one scheduled appointment with a patient at a time.
+- **Appointment Management**: Provides functionality to complete and cancel appointments, thereby updating doctor availability in real-time.
+
+## Technologies Used
+
+- **Python**: A versatile programming language, chosen for its readability and robust ecosystem.
+- **FastAPI**: A modern, fast (high-performance) web framework for building APIs with Python based on standard Python type hints.
+- **Pydantic**: Used for data validation and settings management using Python type annotations.
+
