@@ -28,7 +28,7 @@ class DoctorsEdit(BaseModel):
 
 doctors: dict[int, Doctors] = {
      0: Doctors(id=0, name='Dr. Vivian Oba', specialization='Dentist', phone='07066091382', is_available=False),
-     1: Doctors(id=1, name='Dr. Jonathan Iwegbu', specialization='Dermatologist', phone='07012356798'),
-     2: Doctors(id=2, name='Prof. Patience Audu', specialization='Surgeon', phone='08012345678')
+     1: Doctors(id=1, name='Dr. Jonathan Iwegbu', specialization='Dermatologist', phone='08076039813'),
+     2: Doctors(id=2, name='Dr. Nweke Rita', specialization='Surgeon', phone='08054571943')
 
 }
