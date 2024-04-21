@@ -35,12 +35,12 @@ class PatientsEdit(BaseModel):
 
 patients: dict[int, Patients] = {
     0: Patients(
-        id=0, name='Oche Barry', age=29, sex= 'male', weight=108.9, height=67.5, phone= '08036871246'
+        id=0, name='Chris Ebulem', age=27, sex= 'male', weight=81.5, height=58.5, phone= '08120752396'
 	),
     1: Patients(
-        id=1, name='Ehoche John', age=30, sex= 'male', weight=99.0, height=68.0, phone= '08120752396'
+        id=1, name='Eche Jane', age=35, sex= 'female', weight=89.0, height=61.8, phone= '08139449621'
 	),
     2: Patients(
-        id=2, name='Jimoh Abigail', age=25, sex= 'female', weight=90, height=65, phone= '08102904865'
+        id=2, name='Cillia Chase', age=25, sex= 'female', weight=75.5, height=68, phone= '07034558810'
 	)
 }
